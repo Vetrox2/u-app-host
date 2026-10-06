@@ -1,0 +1,1 @@
+import{E as e,c as t,j as n,t as r}from"./jsx-runtime-Dixy9Hw_.js";import{A as i,r as a,u as o}from"./auth-Ub14bjYD.js";var s=r();async function c({request:t}){let n=await a();if(!n){let{pathname:n,search:r}=new URL(t.url),a=i(n)+r;throw e(`/login?next=${encodeURIComponent(a)}`)}return o(n)}var l=n(function(){return(0,s.jsx)(t,{})});export{c as clientLoader,l as default};
