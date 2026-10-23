@@ -1,0 +1,1 @@
+import{E as e,M as t,c as n,t as r}from"./jsx-runtime-9CBvd6NR.js";import{A as i,r as a,u as o}from"./auth-xCHglk8l.js";var s=r();async function c({request:t}){let n=await a();if(!n){let{pathname:n,search:r}=new URL(t.url),a=i(n)+r;throw e(`/login?next=${encodeURIComponent(a)}`)}return o(n)}var l=t(function(){return(0,s.jsx)(n,{})});export{c as clientLoader,l as default};
